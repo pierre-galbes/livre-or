@@ -49,7 +49,7 @@ if (isset($_POST['env']))
         <label for="login">Login</label>
                 <input type="text" name="login" value="<?php echo $login?>" id="login"><br/>
                 <label for="password">Mot de Passe</label>
-                <input type="password" name="password" value="<?php echo $login?>" id="password"><br/>
+                <input type="password" name="password" value="<?php echo $password?>" id="password"><br/>
         <input type=submit value="Envoyer" name="env"><br/>
     </form>
     </div>
